@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buyers and Sellers</title>
+    <link rel="stylesheet" href="clickherestyle.css" />
+  </head>
+  <body>
+    <div class="welcome" id="welcome-message">
+      <!-- Welcome message will be inserted here -->
+    </div>
+
+    <div class="container">
+      <!-- Buyer Column -->
+      <div class="column buyer-column">
+        <img src="uploads/buyer cover.jpg" alt="Buyer" />
+        <h2>Buy a Property</h2>
+        <a id="buyerLink" class="click-button">Click Here</a>
+      </div>
+
+      <!-- Seller Column -->
+      <div class="column seller-column">
+        <img src="uploads/sellercover.jpg" alt="Seller" />
+        <h2>Sell a Property</h2>
+        <a id="sellerLink" class="click-button">Click Here</a>
+      </div>
+    </div>
+
+    <script>
+      // Grab the URL parameters
+      const urlParams = new URLSearchParams(window.location.search);
+      const name = urlParams.get("name");
+      const email = urlParams.get("email");
+
+      if (name && email) {
+        const decodedName = decodeURIComponent(name);
+        const decodedEmail = decodeURIComponent(email);
+
+        document.getElementById("welcome-message").innerHTML = `
+                <h2>Welcome, ${decodedName}!</h2>
+                <p>Your email: ${decodedEmail}</p>
+            `;
+
+        // Correcting the href links by encoding the parameters properly
+        document.getElementById(
+          "buyerLink"
+        ).href = `buyer.html?name=${encodeURIComponent(
+          decodedName
+        )}&email=${encodeURIComponent(decodedEmail)}`;
+
+        document.getElementById(
+          "sellerLink"
+        ).href = `sellers.html?name=${encodeURIComponent(
+          decodedName
+        )}&email=${encodeURIComponent(decodedEmail)}`;
+      }
+    </script>
+  </body>
+</html>
