@@ -22,13 +22,13 @@ A modern, responsive, and feature-rich web application for managing real estate 
 
 ## Key Features
 
-* ** Dual-Database Authentication:** Separate login structures for users (sign) and properties (sellers/listings).
-* ** Role-Based Portals:**
+* **Dual-Database Authentication:** Separate login structures for users (sign) and properties (sellers/listings).
+* **Role-Based Portals:**
   * **Sellers:** Submit properties with contact details, pricing, descriptions, multi-image upload functionality, and direct Google Maps coordinate URLs. Edit, update, or delete listed properties seamlessly.
   * **Buyers:** Search and browse listings, apply category filters (Apartment, Plot, House, Penthouse), and view detailed contact pages for sellers.
   * **Admin Panel:** Administrative login control panel to monitor the state of portal listings.
-* ** Theme Toggle:** Native dark/light mode toggle with smooth transitions.
-* ** Multi-Image Gallery:** Supports uploading and managing multiple property images per listing.
+* **Theme Toggle:** Native dark/light mode toggle with smooth transitions.
+* **Multi-Image Gallery:** Supports uploading and managing multiple property images per listing.
 
 ---
 
