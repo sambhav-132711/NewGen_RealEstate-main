@@ -83,7 +83,7 @@ NewGen_RealEstate/
 
 ---
 
-## 🔄 User Flow & Architecture
+## User Flow & Architecture
 
 ```mermaid
 graph TD
