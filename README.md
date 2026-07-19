@@ -22,7 +22,7 @@ A modern, responsive, and feature-rich web application for managing real estate 
 
 ## Key Features
 
-* **  Dual-Database Authentication:** Separate login structures for users (sign) and properties (sellers/listings).
+* ** Dual-Database Authentication:** Separate login structures for users (sign) and properties (sellers/listings).
 * ** Role-Based Portals:**
   * **Sellers:** Submit properties with contact details, pricing, descriptions, multi-image upload functionality, and direct Google Maps coordinate URLs. Edit, update, or delete listed properties seamlessly.
   * **Buyers:** Search and browse listings, apply category filters (Apartment, Plot, House, Penthouse), and view detailed contact pages for sellers.
@@ -151,7 +151,7 @@ CREATE TABLE IF NOT EXISTS sellers (
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/chandraneel9/NewGen_RealEstate.git
+   git clone https://github.com/sambhav-132711/NewGen_RealEstate-main
    ```
 
 2. **Move files** to your local server directory:
