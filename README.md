@@ -9,7 +9,7 @@ A modern, responsive, and feature-rich web application for managing real estate 
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 1. [Key Features](#-key-features)
 2. [Technology Stack](#%EF%B8%8F-technology-stack)
 3. [Repository Directory Structure](#%EF%B8%8F-repository-directory-structure)
@@ -20,19 +20,19 @@ A modern, responsive, and feature-rich web application for managing real estate 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-* **🔐 Dual-Database Authentication:** Separate login structures for users (sign) and properties (sellers/listings).
-* **👥 Role-Based Portals:**
+* **  Dual-Database Authentication:** Separate login structures for users (sign) and properties (sellers/listings).
+* ** Role-Based Portals:**
   * **Sellers:** Submit properties with contact details, pricing, descriptions, multi-image upload functionality, and direct Google Maps coordinate URLs. Edit, update, or delete listed properties seamlessly.
   * **Buyers:** Search and browse listings, apply category filters (Apartment, Plot, House, Penthouse), and view detailed contact pages for sellers.
   * **Admin Panel:** Administrative login control panel to monitor the state of portal listings.
-* **🌓 Theme Toggle:** Native dark/light mode toggle with smooth transitions.
-* **🖼️ Multi-Image Gallery:** Supports uploading and managing multiple property images per listing.
+* ** Theme Toggle:** Native dark/light mode toggle with smooth transitions.
+* ** Multi-Image Gallery:** Supports uploading and managing multiple property images per listing.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technologies Used | Details |
 | :--- | :--- | :--- |
@@ -98,11 +98,11 @@ graph TD
 
 ---
 
-## 📋 Database Setup
+## Database Setup
 
 This project uses two MySQL databases: `sign` and `property`.
 
-### ⚙️ Step-by-Step Configuration:
+### Step-by-Step Configuration:
 
 1. Launch **Apache** and **MySQL** in your **XAMPP Control Panel**.
 2. Open your web browser and navigate to **phpMyAdmin**: `http://localhost/phpmyadmin/`.
@@ -147,7 +147,7 @@ CREATE TABLE IF NOT EXISTS sellers (
 
 ---
 
-## 💻 Installation & Local Development
+## Installation & Local Development
 
 1. **Clone the Repository**:
    ```bash
@@ -166,7 +166,7 @@ CREATE TABLE IF NOT EXISTS sellers (
 
 ---
 
-## 🏃 Running the Application
+## Running the Application
 
 1. Open your browser and type:
    ```text
